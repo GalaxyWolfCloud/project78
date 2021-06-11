@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>My Family Book</title>
+    </head>
+
+
+    <body>
+        <h1>My Family Book</h1>
+        <img id="family_member_image"src="https://i.pinimg.com/originals/01/9b/90/019b90b5f8f04e00e0c7b104da92a67a.jpg">
+        <h4 id="family_member_name"></h4>
+     <button onclick="update();">Next</button>
+    </body>
+
+    <script>
+
+var images =["https://i.pinimg.com/736x/f8/a9/dd/f8a9dd5024d6ebed33ae33db724d84e3.jpg",
+"https://thumbs.dreamstime.com/b/father-portrait-handsome-man-shirt-jeans-sweater-wearing-glasses-cartoon-character-standing-dad-vector-illustration-86364395.jpg",
+"https://image.shutterstock.com/image-vector/cute-cartoon-girl-shows-victory-260nw-1905052165.jpg",
+"https://cdn.pixabay.com/photo/2020/02/12/05/13/dog-cartoon-4841702_1280.jpg"];
+
+var names = ["My Mother Renu Singh", " My Father Mayer Singh", "Me Aarya Singh","My dog sweety"];
+
+var i=0;
+function update() 
+{
+document.getElementById("family_member_name").innerHTML = names[i]; 
+document.getElementById("family_member_image").src = images[i];
+  i++;
+}
+    </script>
+
+
+
+
+</html>

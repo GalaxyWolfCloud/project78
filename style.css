@@ -1,0 +1,14 @@
+#family_member_image
+{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;  
+  width: 40%;
+      
+}
+
+.button
+ {
+    position: absolute;
+    top: 50%;
+}
